@@ -1,4 +1,14 @@
-# mod-3-project-group-3-chi-sea-ds
+# Predicting Customer Churn for SyriaTel
+
+This project aims to provide SyriaTel with a model to help predict whether a customer will soon churn. In an article about churn reduction in the telecom industry by the Database Marketing Institute, it was noted that telecom companies have an annual average churn rate between 10%-67%. The article states that "industry retention surveys have shown that while price and product are important, most people leave any service because of dissatisfaction with the way they are treated". With this in mind, we aim to highlight areas where customer service could be improved. We find in out report from this dataset, that SyriaTel has a churn rate of roughly 15% in customers who have been with the company for less than 245 days.
+
+## Aims:
+
+This project aims to:
+
+    - Investigate labeled data on 3333 customers who have held accounts with the company for less than 243 days.
+    - Provide inferential statistics and visualisations based on this data.
+    - Create predictive, supervised learning models from the data to predict churn
 
 # Table of Contents
 
@@ -95,19 +105,7 @@ conda activate housing
 # if needed, make housing available to you as a kernel in jupyter
 python -m ipykernel install --user --name churn --display-name "Python 3 (housing)"
 ```
-
-# Context:
-
-This project aims to provide SyriaTel with a model to help predict whether a customer will soon churn. In an article about churn reduction in the telecom industry by the Database Marketing Institute, it was noted that telecom companies have an annual average churn rate between 10%-67%. The article states that "industry retention surveys have shown that while price and product are important, most people leave any service because of dissatisfaction with the way they are treated". With this in mind, we aim to highlight areas where customer service could be improved. We find in out report from this dataset, that SyriaTel has a churn rate of roughly 15% in customers who have been with the company for less than 245 days.
-
-## Aims:
-
-This project aims to:
-
-    - Investigate labeled data on 3333 customers who have held accounts with the company for less than 243 days.
-    - Provide inferential statistics and visualisations based on this data.
-    - Create predictive, supervised learning models from the data to predict churn
-    
+ 
 # Definitions:
 
     - Churn: a customer who closes their account with SyriaTel. A prediction of True relates to a customer who will churn.
